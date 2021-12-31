@@ -1,5 +1,6 @@
-# proxies
+# Fast Proxy List
 v 0.0.1
+python >= 3.6.8
 
 With this python library, you can easily get working proxies for any project. 
 It does the following things :
@@ -17,15 +18,15 @@ It does the following things :
 
 ## How to install it?
 
-> pip install fast-proxy-list
+```pip install fast-proxy-list```
 
 ## What are the other packages it requires ?
 
-> pip install -r requirements.txt
+```pip install -r requirements.txt```
 
-python >= 3.6.8
-BeautifulSoup4 >= 4.10.0
-Pebble >= 4.6.3
+BeautifulSoup4 == 4.10.0
+Pebble == 4.6.3
+requests == 2.26.0
 
 
 ## How to run it?
@@ -33,7 +34,7 @@ Pebble >= 4.6.3
 If you've imported the library in a python file, you can run it through the command line in case you just need a proxy really fast, just like that :
 Let's say your file is called ```proxies.py```
 
-> python3 proxies.py --url https://github.com
+```python3 proxies.py --url https://github.com```
 
 Will return a  list of  proxies that can be used to scrape github.com
 
